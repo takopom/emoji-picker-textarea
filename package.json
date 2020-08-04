@@ -1,0 +1,8 @@
+{
+  "name": "emoji-picker-textarea",
+  "version": "1.0.0",
+  "description": "Add a emoji to textarea on your web page.",
+  "main": "./index.js",
+  "author": "takopom",
+  "license": "MIT"
+}
