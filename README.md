@@ -2,7 +2,7 @@
 
 Add a emoji to textarea on your web page.
 
-![Demo screen shot](imageURL)
+![Demo screen shot](https://github.com/takopom/emoji-picker-textarea/blob/master/demo.png)
 
 ## Emoji list
 
@@ -13,7 +13,7 @@ The order is same the [emoji-test.txt](https://unicode.org/Public/emoji/13.0/emo
 
 - v13.0
 - Skin tones
-- unqualified emoji
+- Unqualified emoji
 
 ## Usage
 
@@ -42,23 +42,22 @@ let emojiPicker;
 let isOpen = false;
 
 function createEmojiPicker() {
-	// Add a emoji to this textarea.
-	let textarea = document.getElementById("textarea");
-	// Show the picker to this element. The element would be parent of the picker.
-	let picker_area = document.getElementById("emoji-picker-area");
-	// Create the picker by specifying the width and height of it.
-	emojiPicker = new EmojiPicker(textarea, picker_area, "250px", "200px");
+  // Add a emoji to this textarea.
+  let textarea = document.getElementById("textarea");
+  // Show the picker to this element. The element would be parent of the picker.
+  let picker_area = document.getElementById("emoji-picker-area");
+  // Create the picker by specifying the width and height of it.
+  emojiPicker = new EmojiPicker(textarea, picker_area, "250px", "200px");
 }
 
 function toggleEmojiPicker() {
-	if (isOpen) {
+  if (isOpen) {
     // Hide the picker.
-	  emojiPicker.hide();
-	} else {
+    emojiPicker.hide();
+   else {
     // Show the picker.
-	  emojiPicker.show();
-	}
-	isOpen = !isOpen;
+    emojiPicker.show();
+  }
+  isOpen = !isOpen;
 }
-
 ```
