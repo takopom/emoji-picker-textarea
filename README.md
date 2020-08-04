@@ -2,7 +2,7 @@
 
 Add a emoji to textarea on your web page.
 
-![Demo screen shot](https://github.com/takopom/emoji-picker-textarea/blob/master/demo.png)
+<img src="https://github.com/takopom/emoji-picker-textarea/blob/master/demo.png" alt="Demo screen shot" width="250px">
 
 ## Emoji list
 
@@ -26,7 +26,7 @@ $ npm install emoji-picker-textarea
 2. Add the stylesheet link in your `<head>` section.
 
 ```
-<link rel="stylesheet" type="text/css" href="node_modules/emoji-picker-textarea/css/emoji-picker-textarea.css"
+<link rel="stylesheet" type="text/css" href="node_modules/emoji-picker-textarea/css/emoji-picker-textarea.css" />
 ```
 
 3. Add the JavaScript link before the end of your `<body>` section.
