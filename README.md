@@ -2,7 +2,7 @@
 
 Add a emoji to textarea on your web page.
 
-<img src="https://github.com/takopom/emoji-picker-textarea/blob/master/demo.png" alt="Demo screen shot" width="250px">
+<img src="https://raw.githubusercontent.com/takopom/emoji-picker-textarea/master/demo.png" alt="Demo screen shot" width="250px">
 
 ## Emoji list
 
