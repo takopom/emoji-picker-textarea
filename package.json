@@ -4,5 +4,10 @@
   "description": "Add a emoji to textarea on your web page.",
   "main": "./index.js",
   "author": "takopom",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/takopom/emoji-picker-textarea.git"
+  },
+  "homepage": "https://github.com/takopom/emoji-picker-textarea"
 }
