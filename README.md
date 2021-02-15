@@ -54,7 +54,7 @@ function toggleEmojiPicker() {
   if (isOpen) {
     // Hide the picker.
     emojiPicker.hide();
-   else {
+  } else {
     // Show the picker.
     emojiPicker.show();
   }
